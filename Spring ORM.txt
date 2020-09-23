@@ -1,0 +1,37 @@
+SpringORM
+----------
+1. Where spring is framework and ORM is tool like hibernate
+2. ORM is basically Object Relational Model Tool like Hibernate
+3. It's just like integration of ORM with Spring 
+
+
+Advantages of Using ORM:-
+-------------------------
+1. Less coding required (Less than hibernate also)
+2. Easy to test
+3. Better exception handling 
+4. You can also handle exception by yourself also
+5. Integrated transaction management
+
+
+Working with Database:-
+-----------------------
+
+Traditional approach(OLD approach):-
+----------------------
+Our java program call JDBC code and then JDBC code call Database then Database return response to JDBC and from jdbc we will get our data.
+
+Using ORM:-
+-----------
+ORM also internally uses JDBC but we don't have to know about that thing
+
+1. Create a particular class for database table
+2. Then you have to map all columns of class to database table
+3. Now if you want object you simply get from ORM and then you get data
+4. There is no required to write query for creating class also 
+5. To work with JDBC in spring we have jdbcTemplate and if you want to use ORM with spring now you have 
+   Hibernate Template 
+6. Hibernate template have many methods like save , get , load , update you need only Hibernate Template   
+   class only
+
+
